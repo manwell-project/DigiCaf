@@ -5,29 +5,31 @@ import CustomerPage from './pages/CustomerPage.vue';
 import EmployeePage from './pages/EmployeePage.vue';
 import ReportPage from './pages/ReportPage.vue';
 
-export default [
+const routes = [
   {
     path: '/',
     component: HomePage,
   },
   {
-    path: '/stock',
+    path: '/stock/',
     component: StockPage,
   },
   {
-    path: '/pos',
+    path: '/pos/',
     component: POSPage,
   },
   {
-    path: '/customers',
+    path: '/customers/',
     component: CustomerPage,
   },
   {
-    path: '/employees',
+    path: '/employees/',
     component: EmployeePage,
   },
   {
-    path: '/reports',
+    path: '/reports/',
     component: ReportPage,
   },
 ];
+
+export default routes;
