@@ -1,0 +1,21 @@
+{
+  "name": "digicaf",
+  "version": "1.0.0",
+  "description": "Aplikasi Sistem Informasi Cafe - Framework7 + Vue.js",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "framework7": "^8.3.3",
+    "framework7-icons": "^5.0.5",
+    "framework7-vue": "^8.3.3",
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.4.0",
+    "vite": "^5.0.0"
+  }
+}
